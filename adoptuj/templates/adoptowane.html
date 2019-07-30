@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static from staticfiles %}
+{% block title %}
+  <title>Adoptuj4Łapy - znalazły dom</title>
+{% endblock %}
+{% block content %}
+
+<div class = "col-md-12" >
+  <div class="album bg-light">
+  <div class="container-fluid ">
+    <div class="row">
+      {% for animal in adopted %}
+        <div class="card mb-4 shadow-sm ml-4">
+          <div class="pet_town"><i class="fas fa-map-marker-alt"></i>{{ animal.city }}</div>
+          <div class="pet_status pet-status-2">Zaadoptowano</div>
+          <img src = "../static/animals_photos/{{ animal.identifier }}" class="card-img-top adopted" alt="...">
+          <div class="card-body">
+            <p class="card-text"><a href="/zwierzak/{{ animal.identifier }}"><strong>{{ animal.name }}</strong></a></p>
+            <p class="card-text">{{ animal.shelter }}</p>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

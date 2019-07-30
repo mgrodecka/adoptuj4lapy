@@ -1,0 +1,59 @@
+{% load static from staticfiles %}
+<html lang="pl-PL">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      {% block title %}
+      {% endblock %}
+      <link rel="stylesheet" href={% static 'css/style.css' %}>
+      <link href="https://fonts.googleapis.com/css?family=Caveat|Lato&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://use.fontawesome.com/6e5bdb66f9.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid fullHeightDiv">
+          <div class="row fullHeightDiv">
+            <div class="col-12 d-flex-row p-0">
+              <nav class="navbar sticky-top navbar-light" style="background-color: #E8F3F7;">
+        				<div class="container">
+        					<div class="navigation-content">
+        						<a href="/" class="navbar-brand" title="Adoptuj4Łapy">
+        							<img src="/static/images/logo1.png" class="img_logo d-inline-block align-top" alt="Adoptuj zwierzaka na Adoptuj4Łapy" />
+                      <span class= "align-middle footer_name">Adoptuj4Łapy</span>
+        						</a>
+        						<ul class="navigation-nav">
+        							<li>
+        								<a href="/do_adopcji" title="Zwierzęta do adopcji" class="text-decoration-none">Zwierzęta do adopcji</a>
+        							</li>
+        							<li>
+        								<a href="/adoptowane" title="Zwierzęta, które znalazły dom" class="text-decoration-none">Znalazły dom</a>
+        							</li>
+                      <li>
+                        <a href="/schroniska" title="Lista schronisk" class="text-decoration-none">Lista schronisk</a>
+                      </li>
+                      <li>
+                        <a href="/admin" title="Logowanie" class="text-decoration-none">Logowanie</a>
+                      </li>
+        						</ul>
+        					</div>
+        				</div>
+        			</nav>
+            </div>
+            {% block content %}
+            {% endblock %}
+            <br>
+            <div class="col-12 p-0">
+            <nav class="navbar sticky-bottom navbar-light" style="background-color: #ABCFE3;">
+              <div class="container-fluid text-center">
+                <img src="{% static 'images/logo1.png' %}" class="img_logo_footer" alt="Adoptuj zwierzaka na Adoptuj4Łapy" />
+                <h6>Copyright <span class="footer_name">Adoptuj4Łapy</span></h6>
+              </div>
+            </nav>
+          </div>
+        </div>
+        </div>
+      </body>
+  </html>

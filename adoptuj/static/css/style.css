@@ -1,0 +1,254 @@
+html, body {
+	padding: 0px; margin:0px;  height:100%; background-color: #f8f9fa;
+}
+
+.fullHeightDiv {
+	padding: 0px; margin:0px;  height:100%;
+}
+
+.halfHeightDiv {
+	padding: 0px; margin:0px;  height:100%;
+}
+
+.col-6 {
+  background-color: #E8F3F7;
+  text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.col-6.type:hover {
+  background-color: #ABCFE3;
+}
+
+.col-12 {
+	width: 100%;
+}
+img.animal {
+  width: 60%;
+  position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
+}
+
+img.cities {
+  width: 60%;
+  position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
+}
+
+.img_logo {
+  width: 10%;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.img_logo_footer {
+  width: 5%;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: 0px;
+}
+
+img.card-img-top {
+}
+
+.navigation {
+
+	color: black;
+  position: relative;
+
+
+}
+
+.navigation-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbar-brand {
+  display: inline-block;
+  position: relative;
+  z-index: 1001;
+  padding: 12px 0px;
+	align-items:center;
+}
+
+ul.navigation-nav {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  margin-left: 35px;
+  font-family: 'Lato', sans-serif;
+	color: black;
+}
+
+li:hover {
+  background-color: #ABCFE3;
+}
+
+a:link {
+	 text-decoration: none;
+	 color: black;
+}
+
+a.mail {
+	color: #007BFF;
+}
+
+a.mail:hover {
+	color: #0063cd;
+}
+
+
+span.footer_name {
+	color: black;
+	font-family: 'Caveat', cursive;
+	font-size: 150%;
+}
+
+#carouselExampleIndicators {
+	height: 30%;
+}
+.carousel {
+	height: 250px;
+}
+
+.carousel-caption{
+	bottom: 25%;
+	left: 20%;
+	right: 20%;
+	background-color:#FBFBFB;
+	opacity:0.6;
+	color: black;
+}
+
+
+h6 {
+	color: black;
+	font-family: 'Lato', sans-serif;
+}
+
+i.social_media {
+	font-size: 250%;
+	margin-left: 35px;
+}
+
+.arrow {
+	display: flex;
+	align-items: center;
+}
+
+.bottom {
+	padding: 12px 0px;
+}
+
+.album {
+	align-items: center;
+}
+
+p.shelter_name {
+		font-family: 'Lato', sans-serif;
+}
+
+div.form_group {
+  padding-top: : 2%;
+	padding-bottom: 2%;
+}
+
+input.form-control {
+	padding-top: : 2%;
+	padding-bottom: 2%;
+}
+
+h2.animal_type {
+	 position: absolute;
+	 bottom: 10%;
+	 left: 20%;
+	 right: 20%;
+	 font-family: 'Caveat', cursive;
+}
+
+h2.city_name {
+		 font-family: 'Caveat', cursive;
+}
+
+.karuzela {
+	color: black;
+	font-family: 'Lato', sans-serif;
+}
+
+p.animal_info {
+		font-family: 'Lato', sans-serif;
+		padding: 0;
+}
+
+h3.dog_name {
+	 font-family: 'Caveat', cursive;
+}
+.animal_name {
+	 font-family: 'Caveat', cursive;
+}
+
+img.adopted{
+	width: 350px;
+}
+
+div.pet-search {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+}
+ div.title {
+ 	 font-family: 'Caveat', cursive;
+	 background-color: #75ACD1;
+ }
+
+.search_animals {
+	float: right;
+}
+
+.pet_town {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+	background: rgba(0,0,0,.6);
+	border-radius: 10px;
+	padding: 3px 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 800;
+	color: #fff;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.pet_status {
+	background: rgba(97, 187, 42, .7);
+	position: absolute;
+	top: 37px;
+	left: 10px;
+	z-index: 2;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 12px;
+}
+
+.card {
+	width:70%;
+}

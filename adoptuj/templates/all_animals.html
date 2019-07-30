@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% load static from staticfiles %}
+{% block title %}
+  <title>Adoptuj4Łapy - zaadoptuj mnie</title>
+{% endblock %}
+{% block content %}
+<div class="col-12 d-flex-row bg-light">
+<form role="form" class="" method="POST" action="" id="pet_search">
+
+	<div class="container-fluid mb-4 ">
+  		<div class="content_title text-center title p-5">
+  			<h1 class="big_title pt50 mb10 text-black">Zwierzęta do adopcji</h1>
+  			<h3 class="text-black">Wyszukiwarka zwierząt do adopcji Adoptuj4Łapy</h3>
+  		</div>
+
+  		<div class="pet-search align-middle mt-2">
+    			<div class="search-city tippy-click p-2" data-tippy-content="Zwiększ zasięg">
+            <label for="pet_sex">Miasto:</label>
+    				<select class="wide" name="city">
+              <option value="0">Bez znaczenia</option>
+    					<option value="1">Warszawa</option>
+    					<option value="2">Kraków</option>
+    					<option value="3">Wrocław</option>
+    					<option value="4">Trójmiasto</option>
+    				</select>
+    			</div>
+    			<div class="search-pet-type tippy-click p-2" data-tippy-content="Wybierz gatunek">
+            <label for="pet_type">Gatunek:</label>
+    				<select class="wide" name="pet_type">
+              <option value="3">Bez znaczenia</option>
+    					<option value="1">Psy</option>
+    					<option value="2">Koty</option>
+    				</select>
+    			</div>
+          <div class="search-distance p-2">
+            <label for="pet_sex">Płeć:</label>
+            <select class="wide" name="pet_sex">
+              <option value="3">Bez znaczenia</option>
+              <option value="1">On</option>
+              <option value="2">Ona</option>
+            </select>
+          </div>
+          <div class="search-distance p-2">
+            <label for="pet_age_start">Wiek od:</label>
+            <input type="number" name="pet_age_start" id ="pet_age_start" class="age" min="0" step="1" placeholder="0">
+            <label for="pet_age_end">do:</label>
+            <input type="number" name="pet_age_end" id ="pet_age_end" class="age" min="0" step="1" placeholder="20">
+          </div>
+          <button class="btn btn-primary btn-sm ml-5 p-2" type="submit" href="#">Znajdź zwierzaka</button>
+  		</div>
+</div>
+  {% csrf_token%}
+</form>
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          {% for animal in page_animals %}
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="pet_town"><i class="fas fa-map-marker-alt"></i>{{ animal.city }}</div>
+              <div class="pet_status pet-status-1">Szuka domu</div>
+              <img src = "../static/animals_photos/{{ animal.identifier }}" class="card-img-top adopted" alt="...">
+              <div class="card-body">
+                <p class="card-text"><a href="/zwierzak/{{ animal.identifier }}">Imię: <strong>{{ animal.name }}</strong></a></p>
+                {% if animal.sex == 1 %}
+                <p class="card-text">Płeć: <strong>On</strong></p>
+                {% else %}
+                <p class="card-text">Płeć: <strong>Ona</strong></p>
+                {% endif %}
+
+                {% if animal.age_years == 1 %}
+                  <p class="age animal_info">Wiek: <span><strong>{{animal.age_years}} rok</strong></span></p>
+                {% elif animal.age_years > 4 %}
+                  <p class="age animal_info">Wiek: <span><strong>{{animal.age_years}} lat</strong></span></p>
+                {% elif animal.age_years > 1 and animal.age_years < 5 %}
+                  <p class="age animal_info">Wiek: <span><strong>{{animal.age_years}} lata</strong></span></p>
+                {% else %}
+                  <p class="age animal_info">Wiek: <span><strong>Nieznany</strong></span></p>
+                {% endif %}
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="/zwierzak/{{ animal.identifier }}">Szczegóły</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {%endfor%}
+        </div>
+      </div>
+    </div>
+
+    <div class="col-10 card container-fluid ">
+      <div class="row">
+    {% if page_animals.has_other_pages %}
+      <ul class="pagination">
+        {% if page_animals.has_previous %}
+          <li><a href="?page={{ page_animals.previous_page_number }}">&laquo;</a></li>
+        {% else %}
+          <li class="disabled"><span>&laquo;</span></li>
+        {% endif %}
+        {% for i in page_animals.paginator.page_range %}
+          {% if page_animals.number == i %}
+            <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+          {% else %}
+            <li><a href="?page={{ i }}">{{ i }}</a></li>
+          {% endif %}
+        {% endfor %}
+        {% if page_animals.has_next %}
+          <li><a href="?page={{ page_animals.next_page_number }}">&raquo;</a></li>
+        {% else %}
+          <li class="disabled"><span>&raquo;</span></li>
+        {% endif %}
+      </ul>
+    {% endif %}
+    </div>
+    </div>
+    </div>
+  {% endblock %}

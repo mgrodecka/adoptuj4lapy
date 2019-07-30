@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load static from staticfiles %}
+{% block title %}
+  <title>{{one_animal.name}}</title>
+{% endblock %}
+{% block content %}
+<div class="col">
+</div>
+  <div class="col-md-10 col-md-offset-1 p-2 bg-light" >
+    <div class="row no-gutters bg-light  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col-auto d-none d-lg-block">
+        <img src = " /static/animals_photos/{{ one_animal.identifier }}" class="card-img-top" alt="{{ one_animal.identifier }}">
+      </div>
+      <div class="col p-2 m-2 d-flex flex-column position-static">
+        <div class = "animal_name text-center">
+        <h3 class="d-inline-block mb-2 animal_name"><i>Mam na imię</i></h3>
+        <h1 class="mb-4 animal_name">{{one_animal.name}}</h1>
+        </div>
+        <div>
+        <p class="type animal_info"><strong>Gatunek:</strong> <span>{{type}}</span></p>
+        <p class="sex animal_info"><strong>Płeć:</strong> <span>{{gender}}</span></p>
+        {% if one_animal.age_years == 1 %}
+          <p class="age animal_info"><strong>Wiek:</strong> <span>{{one_animal.age_years}} rok</span></p>
+        {% elif one_animal.age_years > 4 %}
+          <p class="age animal_info"><strong>Wiek:</strong> <span>{{one_animal.age_years}} lat</span></p>
+        {% elif one_animal.age_years > 1 and one_animal.age_years < 5 %}
+          <p class="age animal_info"><strong>Wiek:</strong> <span>{{one_animal.age_years}} lata</span></p>
+        {% else %}
+          <p class="age animal_info"><strong>Wiek:</strong> <span>Nieznany</span></p>
+        {% endif %}
+        <p class="breed animal_info"><strong>Rasa:</strong> <span>{{one_animal.breed}}</span></p>
+        <p class="breed animal_info"><strong>Schronisko:</strong> <span><a href="/schroniska">{{one_animal.shelter}}</a></span></p>
+        </div>
+        </div>
+      </div>
+
+  <div class="row no-gutters bg-light  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+    <div class="col p-2 m-2 d-flex flex-column position-static">
+      <p class="desc"><strong>Link do info o zwierzaku na stronie schroniska:</strong><a href="{{ one_animal.link}}"><span><i> -> LINK <-</i></span></a></p>
+      <p class="desc"><strong>Opis:</strong> <br /> <span>{{one_animal.description}}</span></p>
+    </div>
+</div>
+
+<div class="row no-gutters bg-light  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+  <div class="col p-2 m-2 d-flex flex-column position-static">
+
+    {% if one_animal.vaccination == True %}
+    <p class="breed animal_info"><strong>Szczepienie p.wściekliźnie :</strong> <span>Tak</span></p>
+    {%else%}
+    <p class="breed animal_info"><strong>Szczepienie p.wściekliźnie :</strong> <span>Nie</span></p>
+    {%endif%}
+
+    {% if one_animal.deworming == True %}
+    <p class="breed animal_info"><strong>Odrobaczenie:</strong> <span>Tak</span></p>
+    {%else%}
+    <p class="breed animal_info"><strong>Odrobaczenie:</strong> <span>Nie</span></p>
+    {%endif%}
+
+    {% if one_animal.sterilization == True %}
+    <p class="breed animal_info"><strong>Sterylizacja/kastracja:</strong> <span>Tak</span></p>
+    {%else%}
+    <p class="breed animal_info"><strong>Sterylizacja/kastracja:</strong> <span>Nie</span></p>
+    {%endif%}
+  </div>
+</div>
+</div>
+
+<div class="col">
+</div>
+{% endblock %}

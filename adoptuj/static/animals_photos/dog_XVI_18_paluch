@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Schronisko Na Paluchu</title>
+<meta name="description" content="psy koty adopcje warszawa" />
+<meta name="keywords" content="Schronisko psy koty adopcje Warszawa" />
+<link href="/layouts/napaluchu/skin/images/favicon.ico" rel="Shortcut Icon" type="image/x-icon" />
+<link href="/static/internal/style.css" rel="stylesheet"  type="text/css"/>
+<script type="text/javascript" src="/static/internal/scripts.js"></script>
+
+<link href="/static/skin/napaluchu/style.css" rel="stylesheet"  type="text/css"/>
+<script type="text/javascript" src="/static/skin/napaluchu/scripts.js"></script>
+<script type="text/javascript" src="/plugins/animals_napaluchu/skin/script.js"></script>
+<link href="/plugins/animals_napaluchu/skin/style.css" rel="stylesheet"  type="text/css"/>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=pl"></script>
+<link href="/plugins/lightbox_for_googlemaps/skin/lightboxgooglemaps.css" rel="stylesheet"  type="text/css"/>
+<script type="text/javascript" src="/plugins/lightbox_for_googlemaps/skin/lightboxgooglemaps.js"></script>
+<link href="/plugins/news_napaluchu/skin/style.css" rel="stylesheet"  type="text/css"/>
+<link href="/plugins/notice/skin/style.css" rel="stylesheet"  type="text/css"/>
+<script type="text/javascript">
+    //var $j = jQuery.noConflict();
+</script>
+</head><body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="navi_top">
+    <div class="wrap"> <span class="navi_top_insidetxt">Schronisko dla Bezdomnych Zwierząt. Jednostka budżetowa Miasta Stołecznego Warszawy.</span> <a href="/mapa_strony/" class="map" title="mapa strony"></a>
+    <div class="separator"></div>
+    <a href="/kontakt/" class="contact" title="kontakt"></a>
+    <div class="separator"></div>
+    <a href="/" class="home" title="strona główna"></a>
+    </div>
+	</div>
+<center>
+<div id="popup-cookies">
+  <input type="button" id="popup-cookies-submit" value="Rozumiem" />
+  <div class="popup-text">
+    Używamy plików cookies, aby ułatwić Ci korzystanie z naszego serwisu oraz do celów statystycznych. Jeśli nie blokujesz tych plików, to zgadzasz się na ich użycie oraz zapisanie w pamięci urządzenia. Pamiętaj, że możesz samodzielnie zarządzać cookies, zmieniając ustawienia przeglądarki. Więcej informacji w naszej
+    <a href="https://www.napaluchu.waw.pl/informacje/polityka_prywatnosci/">Polityce Prywatności</a>.
+</div>
+</center>
+
+
+</div>
+
+
+<!--END navi_top-->
+<div class="wrap">
+
+<div class="head_photo"><a href="/" class="logo"></a><!-- sidebar 0 --><div id="main_head_photo"><img class="s_o10" id="main_head_photo_1"
+	src="/files/animals_napaluchu/banner/011804040.jpg"/></div><div id="main_head_photo_1_id"><a href="/czekam_na_ciebie/wszystkie_zwierzeta_do_adopcji/011804040">Gandalf &raquo; </a></div> 
+<script type="text/javascript">
+// <![CDATA[
+	var mhd1 = document.getElementById("main_head_photo_1");
+	var mhd2 = document.getElementById("main_head_photo_1_id");
+	
+	var banImg=[]; 
+	var banId=[];	
+	var banName=[];
+	var krokMHP=4;
+	var banTop=[];
+	var banLink=[];
+banImg[1]="/files/animals_napaluchu/banner/647.jpg";banId[1]="647";banLink[1]="/aktualnosci/";banName[1]="";banName[1]+="Wirtualny spacer";banTop[1]="";banTop[1]="";
+banImg[2]="/files/animals_napaluchu/banner/011303735.jpg";banId[2]="011303735";banLink[2]="/czekam_na_ciebie/wszystkie_zwierzeta_do_adopcji/";banName[2]="Żabik &raquo; ";banName[2]+="Poznaj Żabika i zabierz go do domu";banTop[2]="";banTop[2]="";
+banImg[3]="/files/animals_napaluchu/banner/011202748.jpg";banId[3]="011202748";banLink[3]="/czekam_na_ciebie/wszystkie_zwierzeta_do_adopcji/";banName[3]="Samira &raquo; ";banName[3]+="7 lat bezdomna";banTop[3]="";banTop[3]="";
+banImg[4]="/files/animals_napaluchu/banner/011402057.jpg";banId[4]="011402057";banLink[4]="/czekam_na_ciebie/wszystkie_zwierzeta_do_adopcji/";banName[4]="Fiona &raquo; ";banName[4]+="dwa razy oddana, czeka na prawdziwą miłość";banTop[4]="";banTop[4]="";
+banImg[5]="/files/animals_napaluchu/banner/011503610.jpg";banId[5]="011503610";banLink[5]="/czekam_na_ciebie/wszystkie_zwierzeta_do_adopcji/";banName[5]="Misiek &raquo; ";banName[5]+="Pokaż Miśkowi, że psie życie może być szczęśliwe";banTop[5]="";banTop[5]="";
+banImg[6]="/files/animals_napaluchu/banner/011403593.jpg";banId[6]="011403593";banLink[6]="/czekam_na_ciebie/wszystkie_zwierzeta_do_adopcji/";banName[6]="Bandżi &raquo; ";banName[6]+="Jak to jest być niewidzialnym? Bandżi wie to bardzo dobrze...Jest młody, piękny, a jednak od 2014 r. nikt się nim nie zainteresował. ";banTop[6]="";banTop[6]="";
+banImg[7]="/files/animals_napaluchu/banner/011901650.jpg";banId[7]="011901650";banLink[7]="/czekam_na_ciebie/wszystkie_zwierzeta_do_adopcji/";banName[7]="Arcyk &raquo; ";banName[7]+="Kto pokocha 12-letniego Arcyka?";banTop[7]="";banTop[7]="";
+banImg[8]="/files/animals_napaluchu/banner/011804040.jpg";banId[8]="011804040";banLink[8]="/czekam_na_ciebie/wszystkie_zwierzeta_do_adopcji/";banName[8]="Gandalf &raquo; ";banName[8]+="";banTop[8]="";banTop[8]="";
+
+var maxI=8; var iMHP=8;
+setInterval(function() {
+	if(mhd1.className=="s_o10") { 
+		if(krokMHP>=6) { krokMHP=0; mhd1.className = "a_o03";} 
+		else { krokMHP++; }
+	}
+	else if(mhd1.className=="a_o03") {
+		if(krokMHP==0){ 
+			if(iMHP>=maxI) iMHP=1;  else  iMHP+=1;
+						mhd1.src= banImg[iMHP];
+			mhd2.innerHTML='<a> </a>';
+			krokMHP=0;
+			mhd1.className = "a_o10"; 
+mhd2.innerHTML=
+'<a href="'+banLink[iMHP]+banId[iMHP]+'">'+banName[iMHP]+'</a>'; 
+		} 
+	}
+	else 	if(krokMHP==0) { krokMHP++;  } 
+	else 	if(krokMHP>=8) { krokMHP=0; mhd1.className = "a_o03";} 
+	else { krokMHP++; }
+	
+	
+	
+}, 1000);
+
+// ]]></script><!-- sidebar 1 --><br /></div>
+
+<div class="content">
+  <script type="text/javascript">
+var menu_306 = {divclass:'anylinkmenu'} ;
+menu_306.items =  [["Wszystkie zwierzęta","/zwierzeta_do_adopcji/wszystkie_zwierzeta/"],["Najdłużej czekają na dom","/zwierzeta_do_adopcji/najdluzej_czekaja_na_dom/"]];
+var menu_9 = {divclass:'anylinkmenu'} ;
+menu_9.items =  [["Jak adoptować?","/czekam_na_ciebie/zasady_adopcji/"],["Wizyta w schronisku","/czekam_na_ciebie/jak_sie_zachowac_w_schronisku/"],["Jak wybrać psa dla siebie","/czekam_na_ciebie/jak_wybrac_psa_dla_siebie/"],["Zanim adoptujesz kota","/czekam_na_ciebie/zanim_adoptujesz_kota/"],["Ankieta i umowa adopcyjna","/czekam_na_ciebie/ankieta_i_umowa_adopcyjna/"],["Zasady postępowania z psem po adopcji","/czekam_na_ciebie/po_adopcji/"],["Zasady postępowania z kotem do adopcji","/czekam_na_ciebie/instrukcja_obslugi_kota/"],["Często zadawane pytania","/czekam_na_ciebie/czesto_zadawane_pytania/"]];
+var menu_11 = {divclass:'anylinkmenu'} ;
+menu_11.items =  [["Wyszukiwarka zwierząt w kwarantannie","/ostatnio_znalezione/"],["Wszystkie zwierzęta w kwarantannie","/ostatnio_znalezione/wszystkie_zwierzeta_w_kwarantannie/"],["Co zrobić, jak zaginie ci zwierzak","/ostatnio_znalezione/co_zrobic_jak_zaginie_ci_zwierzak/"]];
+var menu_212 = {divclass:'anylinkmenu'} ;
+menu_212.items =  [["Adoption","/english/adoption/"],["How to choose the right animal for you?","/english/how/"],["How to help","/english/how_to_help/"],["Volunteering/Dog walking","/english/volunteering/"],["About our shelter","/english/about_our_shelter/"]];
+var menu_13 = {divclass:'anylinkmenu'} ;
+menu_13.items =  [["Zwierzęta wydane","/moj_nowy_dom/"],["Prześlij zdjęcie z nowego domu","/moj_nowy_dom/formularz_kontaktowy_w_nowym_domu/"]];
+var menu_146 = {divclass:'anylinkmenu'} ;
+menu_146.items =  [];
+var menu_17 = {divclass:'anylinkmenu'} ;
+menu_17.items =  [["Pomoc w spacerach","/wolontariat/pomoc_w_spacerach/"],["Nabór do wolontariatu","/wolontariat/nabor/"],["Fotowolontariat","/wolontariat/woloart/"],["Regulamin Wolontariatu","/wolontariat/regulamin_wolontariatu/"],["Szkolenia","/wolontariat/szkolenia/"],["Dni wybiegowe","/wolontariat/dni_wybiegowe/"],["Materiały szkoleniowe","/wolontariat/materialy_szkoleniowe/"]];
+var menu_269 = {divclass:'anylinkmenu'} ;
+menu_269.items =  [];
+var menu_119 = {divclass:'anylinkmenu'} ;
+menu_119.items =  [];
+var menu_158 = {divclass:'anylinkmenu'} ;
+menu_158.items =  [["Zajęcia edukacyjne","/edukacja/zajecia_edukacyjne/"],["Gra piesku, kotku szukajcie domu","/edukacja/gra_piesku_szukaj_domu/"]];
+var menu_18 = {divclass:'anylinkmenu'} ;
+menu_18.items =  [["Zgubiłem zwierzę","/tablica_ogloszen/zgubilem_zwierze/"],["Znalazłem zwierzę","/tablica_ogloszen/znalazlem_zwierze/"],["Inne","/tablica_ogloszen/inne/"],["Dodaj ogłoszenie","/tablica_ogloszen/dodaj_ogloszenie/"]];
+var menu_244 = {divclass:'anylinkmenu'} ;
+menu_244.items =  [];
+var menu_14 = {divclass:'anylinkmenu'} ;
+menu_14.items =  [];
+var menu_130 = {divclass:'anylinkmenu'} ;
+menu_130.items =  [["Dane 2016","/dane_statystyczne/dane_2016/"],["Dane 2015","/dane_statystyczne/dane_2015/"],["Dane 2017","/dane_statystyczne/dane_2017/"],["Dane 2018","/dane_statystyczne/dane_2018/"]];
+var menu_20 = {divclass:'anylinkmenu'} ;
+menu_20.items =  [["Psi poradnik po adopcji","/poradnik/psi_poradnik_po_adopcji/"],["Koci poradnik po adopcji","/poradnik/koci_poradnik_po_adopcji/"],["Co zrobić, jak znajdziesz zwierzę","/poradnik/co_zrobic_jesli_znalazles_zwierze/"],["Co zrobić, jak zaginie ci zwierzę","/poradnik/co_zrobic_jak_zaginie_ci_zwierze/"],["Postępowanie z bezdomnymi zwierzętami na terenie m.st. Warszawy","/poradnik/postepowanie_z_bezdomnymi_zwierzetami_na_terenie_m.st._warszawy/"],["Postępowanie z bezdomnymi zwierzętami na terenie należącym do innej gminy niż m.st. Warszawa","/poradnik/postepowanie_z_bezdomnymi_zwierzetami_na_terenie_nalezacym_do_innej_gminy_niz_m.st_warszawa/"],["Zabezpieczenie zwierzęcia przed przemieszczaniem się z miejsca znalezienia","/poradnik/zabezpieczenie_zwierzecia_przed_przemieszczaniem_sie_z_miejsca_znalezienia/"]];
+var menu_19 = {divclass:'anylinkmenu'} ;
+menu_19.items =  [["Współpracujemy","/wsparcie/wspolpracujemy/"],["Lista darczyńców","/wspieraja_nas/lista_darczyncow/"]];
+var menu_107 = {divclass:'anylinkmenu'} ;
+menu_107.items =  [["Informacje ogólne","/bip/informacje_ogolne/"],["Status prawny","/bip/status_prawny/"],["Przedmiot działalności","/bip/przedmiot_dzialalnosci/"],["Struktura organizacyjna","/bip/struktura_organizacyjna/"],["Majątek Schroniska","/bip/majatek_schroniska/"],["Ogłoszenia i informacje","/bip/ogloszenia_i_informacje/"],["Przetargi","/bip/przetargi/"],["Ewidencje, rejestry i archiwa","/bip/ewidencje_rejestry_i_archiwa/"],["Sprawozdania","/bip/sprawozdania/"],["Kontakt","/bip/kontakt/"],["Oferty pracy","/bip/oferty_pracy/"]];
+anylinkmenu.init("menuanchorclass");
+</script>
+
+<div class="menu"><a href="/zwierzeta_do_adopcji/" rel="menu_306" class="menuanchorclass">Zwierzęta do adopcji</a><div class="menu_bottom"></div><a href="/czekam_na_ciebie/" rel="menu_9" class="menuanchorclass disting">O adopcji</a><div class="menu_bottom"></div><a href="/ostatnio_znalezione/" rel="menu_11" class="menuanchorclass">Ostatnio znalezione</a><div class="menu_bottom"></div><a href="/english/" rel="menu_212" class="menuanchorclass">English</a><div class="menu_bottom"></div><a href="/moj_nowy_dom/" rel="menu_13" class="menuanchorclass">Znalazły dom</a><div class="menu_bottom"></div><a href="/czego_potrzebujemy/" rel="menu_146" class="menuanchorclass">Jak pomóc</a><div class="menu_bottom"></div><a href="/wolontariat/" rel="menu_17" class="menuanchorclass">Wolontariat</a><div class="menu_bottom"></div><a href="/ochota_na_kota/" rel="menu_269" class="menuanchorclass">Ochota na Kota</a><div class="menu_bottom"></div><a href="/adoptuj_warszawiaka/" rel="menu_119" class="menuanchorclass">Adoptuj Warszawiaka</a><div class="menu_bottom"></div><a href="/edukacja/" rel="menu_158" class="menuanchorclass">Edukacja</a><div class="menu_bottom"></div><a href="/tablica_ogloszen/" rel="menu_18" class="menuanchorclass">Tablica ogłoszeń</a><div class="menu_bottom"></div><a href="/kacik_behawiorysty/" rel="menu_244" class="menuanchorclass">Kącik Behawiorysty</a><div class="menu_bottom"></div><a href="/o_schronisku/" rel="menu_14" class="menuanchorclass">O schronisku</a><div class="menu_bottom"></div><a href="/dane_statystyczne/" rel="menu_130" class="menuanchorclass">Dane statystyczne</a><div class="menu_bottom"></div><a href="/poradnik/" rel="menu_20" class="menuanchorclass disting">Poradniki</a><div class="menu_bottom"></div><a href="/wspieraja_nas/lista_darczyncow/" rel="menu_19" class="menuanchorclass">Współpracujemy</a><div class="menu_bottom"></div><a href="/bip/" rel="menu_107" class="menuanchorclass">BIP</a><div class="menu_bottom"></div></div>
+
+
+  <div class="main_content">
+  		  		<link rel="canonical" href="https://www.napaluchu.waw.pl" />  <script type="text/javascript">
+// <![CDATA[
+function flash(id, kolor, czas, kolor2, czas2)
+{
+	document.getElementById(id).style.color = kolor;
+	setTimeout('flash("' + id + '","' + kolor2 + '",' + czas2 + ',"' + kolor + '",' + czas + ')', czas);
+}
+// ]]>
+</script>
+<table style="width: 100%; table-layout: fixed;" cellspacing="1" cellpadding="1" border="0">
+    <tbody>
+        <tr>
+            <td>&nbsp;<a href="https://www.napaluchu.waw.pl/informacje/odo/"><input name="Informacja o ochronie danych osobowych" value="Informacja o ochronie danych osobowych" type="button" /></a></td>
+            <td><script type="text/javascript">
+// <![CDATA[
+flash("identyfikator", "black", 1000, "red", 1000);
+// ]]>
+</script></td>
+            <td>&nbsp;</td>
+            <td style="text-align: center;">&nbsp;<a href="https://www.napaluchu.waw.pl/bip/kontakt/"><input name="   Kontakt   " value="   Kontakt   " type="button" /></a></td>
+            <td style="text-align: center;">&nbsp;<a href="https://www.napaluchu.waw.pl/bip/oferty_pracy/"><input name="Oferty pracy" value="Oferty pracy" type="button" /></a></td>
+        </tr>
+    </tbody>
+</table>
+<h3 style="color: Red; text-align: center;"><em><span style="font-size: x-large;"><strong><br />
+</strong></span></em></h3>
+<h3 style="color: Red;"><span style="font-size: x-large;"><strong>Aktualności</strong></span></h3>
+
+<div id="news_slider">
+  <div id="news_slider_container">
+  	<div id="news_slider_inner">
+	       <div class="news_slider_item" id="news_slider_item_1">
+      <span class="title">Adoptuj Warszawiaka 28 lipca</span>
+      <p>
+        Przyjdźcie 28 lipca na spotkanie w ramach akcji Adoptuj Warszawiaka. Tym razem odbędzie się ona na zakończenie kampanii zorganizowanej we wsp&oacute;łpracy z Synergic Media, dzięki kt&oacute;rej od miesiąca możecie oglądać nasze zwierzaki na ekranach w przejściu podziemnym w centrum Warszawy.
+Zapraszamy Was 28.07 do Parku Świętokrzyskiego pod PKiN w godzinach 13- 15.30. Poznacie kilkadziesiąt ps&oacute;w ze Schroniska &quot;Na Paluchu&quot;, kt&oacute;re szukają nowych...      </p>
+      <div class="news_slider_link" id="news_slider_link_1">/aktualnosci/758</div>
+      </div>
+           <div class="news_slider_item" id="news_slider_item_2">
+      <span class="title">Adoptuj Warszawiaka w Piasecznie</span>
+      <p>
+        21 lipca w godzinach 13- 15.30 w Parku Miejskim w Piasecznie         odbędzie się kolejna odsłona akcji Adoptuj Warszawiaka. Podczas         wydarzenie będzie można poznać kilkadziesiąt ps&oacute;w ze Schroniska         dla Bezdomnych Zwierząt &quot;Na Paluchu&quot; w Warszawie, kt&oacute;re tym         razem w Piasecznie będą szukały nowych dom&oacute;w. Zapraszamy też na         stoisko Schroniska, na kt&oacute;rym dyżurować będą wolontariusze - na         stoisku będzie...      </p>
+      <div class="news_slider_link" id="news_slider_link_2">/aktualnosci/757</div>
+      </div>
+           <div class="news_slider_item" id="news_slider_item_3">
+      <span class="title">20 czerwca (Boże Ciało) schronisko otwarte bez zmian</span>
+      <p>
+        &nbsp;20 czerwca (Boże Ciało) schronisko otwarte bez zmian.
+
+Zapraszamy w&nbsp; godz. 12-17
+odbiory zwierząt w godz. 10-18      </p>
+      <div class="news_slider_link" id="news_slider_link_3">/aktualnosci/756</div>
+      </div>
+           <div class="news_slider_item" id="news_slider_item_4">
+      <span class="title">Bezpłatne czipowanie kotów w Ochota na Kota</span>
+      <p>
+        Serdecznie zapraszamy 16 czerwca na bezpłatne czipowanie kot&oacute;w w Ochocie na Kota, przy ul. Gr&oacute;jeckiej 79.&nbsp;
+Czipowanie odbywać się będzie w godzinach 12:00 - 15:00, a w godzinach 12:00 - 14:00 dyżurować będzie behawiorystka, kt&oacute;ra chętnie podzieli się swoją wiedzą na temat kot&oacute;w. :-)
+
+KONIECZNIE WEŹCIE ZE SOBĄ DOW&Oacute;D OSOBISTY I KSIĄŻECZKĘ ZDROWIA KOTA.
+
+Do zobaczenia!      </p>
+      <div class="news_slider_link" id="news_slider_link_4">/aktualnosci/755</div>
+      </div>
+           <div class="news_slider_item" id="news_slider_item_5">
+      <span class="title">9 czerwca Wybory Kundelka Roku</span>
+      <p>
+        Zapraszamy wszystkich z najmilszymi, najsłodszymi, wspaniałymi kundelkami :D na Wybory Kundelka roku organizowanego przez magazyn&nbsp;Cztery Łapy 9 czerwca o godz. 12 na Polu Mokotowskim (na polanie za pubem Lolek).&nbsp; Będzie świetna zabawa z wieloma konkursami i nagrodami m.in. na najdłuższe uszy i ogony, uśmiech, sztuczki, wokalista, pies podobny do opiekuna, historia adopcji.
+
+To będzie też świetna okazja by wziąć udział w naszej akcji Adoptuj Warszawiaka :D Będzie...      </p>
+      <div class="news_slider_link" id="news_slider_link_5">/aktualnosci/754</div>
+      </div>
+            </div>
+  </div>
+  
+  <div class="break20"></div>
+  <div class="bullets" id="news_slider_bullets"></div>
+  <div class="hr left hrSlider"></div>
+  <span class="more" id="news_slider_btn_more"></span>
+  <div class="clear"></div>
+</div>
+<script type="text/javascript">NewsSlider.init(5, '/plugins/news_napaluchu', '10000');</script>
+<div id="test"></div>
+<div id="test2"></div>
+<div id="test3"></div>
+<table width="763" height="386" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td colspan="2" width="452">
+            <h3><span style="font-size: large;"><span style="color: rgb(210, 0, 5);"><strong>Schronisko dla Bezdomnych Zwierząt &quot;Na Paluchu&quot;</strong></span></span></h3>
+            <p style="text-align: left;"><span style="font-size: small;">Schronisko przyjmuje bezdomne zwierzęta z terenu&nbsp;Warszawy, gminy Piaseczno* i G&oacute;ry Kalwarii*.</span><strong><span style="font-size: smaller;"><br />
+            </span></strong><span style="font-size: x-small;">             *Zwierzęta z tych teren&oacute;w mogą być przyjęte do schroniska jedynie za pośrednictwem Straży Miejskiej nr 986.</span><strong><span style="font-size: smaller;"><br />
+            </span></strong></p>
+            </td>
+            <td rowspan="3" style="text-align: center;" width="303"><a href="https://www.napaluchu.waw.pl/o_schronisku/mapa"><img src="/files/editor/image/mapka_mp.jpg" alt="Mapka" width="267" height="267" /></a></td>
+        </tr>
+        <tr>
+            <td width="158" valign="top"><span style="font-size: medium;"><br />
+            </span>
+            <p><span style="color: rgb(51, 51, 51);"><span style="font-size: medium;">             </span><strong><span style="font-size: medium;">ADRES</span></strong></span></p>
+            </td>
+            <td width="294" valign="top">
+            <p>ul. Paluch 2 (przy ul. Na Skraju) <br />
+            02-147 Warszawa, <br />
+            dojazd z P+R Al. autobusem linii 124<br />
+            <a href="https://jakdojade.pl/warszawa/trasa/?tn=Schronisko%20%22Na%20Paluchu%22&amp;tc=52.15623:20.96196&amp;stopsLayer=true" target="_blank">Sprawdź dojazd na jakdojade.pl <strong><br />
+            </strong><br />
+            <br />
+            </a></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;" width="158" valign="top">
+            <h2><span style="color: rgb(0, 0, 0);"><br />
+            </span></h2>
+            <p><strong><span style="color: rgb(51, 51, 51);"><span style="font-size: medium;">GODZINY&nbsp;<br />
+            OTWARCIA&nbsp;</span> </span></strong></p>
+            </td>
+            <td width="294" valign="top">
+            <p><span style="font-size: small;"><span style="color: rgb(51, 51, 51);"><strong>Adopcje 7 dni w tygodniu w godz. 12 - 17</strong></span></span><span style="color: rgb(0, 0, 0);"><strong><span style="font-size: larger;"><br />
+            </span></strong></span><span style="font-size: smaller;"><span style="color: rgb(210, 0, 5);">Ważne! Chęć odbycia spaceru przedadopcyjnego należy zgłosić w Biurze Adopcji najp&oacute;źniej o godzinie 15.30.</span></span><br />
+            <span style="color: rgb(51, 51, 51);"><strong>Poszukiwanie i odbi&oacute;r zaginionych zwierząt 7 dni w&nbsp; tygodniu w godz. 10 - 18</strong></span><span style="color: rgb(210, 0, 5);"><span style="color: rgb(0, 0, 0);"><br />
+            <br />
+            <br />
+            </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="158" valign="top">
+            <h2 class="opis_tabelki_mp">&nbsp;</h2>
+            <p><span style="font-size: medium;"><strong><span style="color: rgb(51, 51, 51);">KONTAKT</span></strong></span></p>
+            </td>
+            <td width="294" valign="top">
+            <p>Sekretariat: 22 868-06-34<br />
+            e-mail: info@napaluchu.waw.pl<br />
+            W sprawach zwierząt: 22 846 02 36, 22 868 15 79<br />
+            (całodobowo)<br />
+            e-mail: ba@napaluchu.waw.pl<br />
+            fax 22 846-02-50</p>
+            </td>
+            <td style="text-align: center;" width="303"><a href="https://warszawa19115.pl/"><img src="/files/editor/image/R%C3%B3%C5%BCne/schronisko.png" alt="19115" width="299" height="104" /></a></td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: right;">*</p>          </div>
+  <div class="clear"></div>
+  
+</div>
+<div class="clear"></div>
+<div class="content_bottom"></div>﻿<div id="footer">
+<div class="info"><a href="https://seal.beyondsecurity.com/vulnerability-scanner-verification/www.napaluchu.waw.pl"><img src="https://seal.beyondsecurity.com/verification-images/www.napaluchu.waw.pl/vulnerability-scanner-8.gif" alt="Vulnerability Scanner" border="0" /></a></div>
+
+<a href="https://www.facebook.com/pages/Schronisko-Na-Paluchu-Kacik-Adopcyjny/168636789854942" 
+target="_blank"><img src="/static/skin/napaluchu/images/FBLogo.png" 
+style="height:44px; float: left; display: inline-block; margin-right: 10px; " alt="ico_fb"/></a>
+
+<div class="fbBox">
+<div class="fb-like" data-href="https://www.facebook.com/SchroniskonaPaluchuAdopcje" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" ></div>
+<div style="margin:4px 0"></div>
+<div class="fb-share-button" data-href="http://www.napaluchu.waw.pl" data-layout="button"></div>
+</div>
+
+<script language="javascript" type="text/javascript">
+
+</script>
+  </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-133945832-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <a href="#" target="_blank"><img src="/static/skin/napaluchu/images/logo_syrenka.gif" border="0" class="margin" alt="logo_syrenka"/></a> <a href="/materialy_do_pobrania/">Materiały do pobrania</a> <span class="separator">|</span><a href="/linki_zewnetrzne/">Linki zewnętrzne</a> <span class="separator">|</span> <a href="/przetargi/">Przetargi</a> <span class="separator">|</span> <a href="https://www.napaluchu.waw.pl/bip/">BIP&nbsp;&nbsp; <img src="/static/skin/napaluchu/images/logo_bip.jpg" border="0" align="middle" alt="logo_bip"/ <span class="separator">|</span> <a href="/informacje/polityka_prywatnosci/">Polityka prywatności</a>
+  <div class="clear"></div>
+</div>
+
+
+<div id="content_slider_left">
+  <div id="content_slider_left_button"></div>
+  <div id="content_slider_left_inner">
+    <div id="content_slider_left_inner_top"></div>
+    <div id="content_slider_left_content">
+      <div class="inner">
+        <div class="cs_marker_outer">
+          <div class="cs_marker_outer_left"></div>
+          <div class="cs_marker_outer_text"> W tym roku zaadoptowano ze schroniska <span class="marker"><span class="marker_left"></span><span class="marker_text"> 1573 </span></span> zwierząt </div>
+        </div>
+        <div class="cs_marker_outer" style="margin-left:7px;">
+          <div class="cs_marker_outer_left"></div>
+          <div class="cs_marker_outer_text"> Na adopcję w schronisku czeka <span class="marker"><span class="marker_left"></span><span class="marker_text"> 702 </span></span> zwierząt </div>
+        </div>
+        <div class="clear"></div>
+        <div id="content_slider_left_content_content"><h2><span style="font-size: smaller;">Ważne informacje</span></h2>
+<div style="margin-bottom: 0cm; text-align: justify;">Adres: ul. Paluch 2, 02-147 Warszawa</div>
+<div style="margin-bottom: 0cm; text-align: justify;">Dojazd z <em><span class="st">P+R Al.Krakowska</span></em><span class="st"> autobusem</span> linii 124<br />
+&nbsp;</div>
+<div style="margin-bottom: 0cm; text-align: justify;">Status organizacyjny: jednostka budżetowa m. st. Warszawy<br />
+<strong>Dyrektor Schroniska: Henryk Strzelczyk (od 15.11.2016)</strong><br />
+<strong><br />
+</strong></div>
+<h2><span style="font-size: smaller;">Kontakt do schroniska:&nbsp;</span></h2>
+<div style="text-align: justify;"><strong>22 868-06-34<br />
+</strong></div>
+<div style="margin-bottom: 0cm;">Sekretariat - w. 1 (od poniedziałku do piątku w godz. 8-16); info@napaluchu.waw.pl</div>
+<div style="margin-bottom: 0cm; text-align: justify;">Promocja - w. 2; promocja@napaluchu.waw.pl</div>
+<div style="margin-bottom: 0cm; text-align: justify;">Księgowość - w. 3 (od poniedziałku do piątku w godz. 8-16); ksiegowosc@napaluchu.waw.pl</div>
+<div style="text-align: justify;"><strong>22 846-02-36, 22 868-15-79, </strong><strong>604-778-747 </strong><strong>- całodobowo w sprawach zwierząt<br />
+</strong></div>
+fax:&nbsp;22 868-06-34 w.4; 22 846-02-50<br />
+&nbsp;
+<h2 style="text-align: justify;"><span style="font-size: smaller;">WIZYTY W SCHRONISKU:</span></h2>
+<div style="margin-bottom: 0cm; text-align: justify;"><strong>Adopcje przez 7 dni w tygodniu w godzinach 12.00 - 16.00</strong><strong><br />
+</strong>&nbsp;</div>
+<h2 style="text-align: justify;"><span style="font-size: smaller;">POSZUKIWANIE I ODBI&Oacute;R ZAGUBIONYCH ZWIERZĄT:</span></h2>
+<div style="margin-bottom: 0cm; text-align: justify;"><strong>Przez 7 dni w tygodniu w godz. 10.00 - 18.00<br />
+</strong><br />
+Jeśli szukasz zagubionego pupila koniecznie zabierz dow&oacute;d tożsamości <br />
+i dokument potwierdzający własność zwierzęcia: książeczka szczepień, zdjęcia itp. <br />
+&nbsp;</div>
+<h2 style="text-align: justify;"><span style="font-size: smaller;">PRZYJMOWANIE ZNALEZIONYCH ZWIERZĄT:</span></h2>
+<div style="margin-bottom: 0cm; text-align: justify;"><strong>Całodobowo za pośrednictwem Straży Miejskiej i upoważnionych służb.<br />
+W&nbsp;godzinach 8.00 - 20.00 za pośrednictwem os&oacute;b prywatnych.</strong><br />
+&nbsp;</div>
+<br /></div>
+      </div>
+    </div>
+    <div id="content_slider_left_inner_bottom"></div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+var _userway_config = {
+position: '3', size: 'small',
+language: 'pl', color: '#053f67',
+type: '1', mobile: true, account: 'L1z4rlcQY6'
+};
+</script>
+<script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
+
+
+
+</div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'pl'}
+</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</body>
+</html>
